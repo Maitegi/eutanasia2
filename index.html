@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>¿Es hora de dejarlo ir?</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+
+  <!-- Hero Section -->
+  <section class="relative h-screen flex items-center justify-center text-center bg-cover bg-center" style="background-image: url('https://img.freepik.com/free-photo/front-view-man-with-cute-greyhound-dog_23-2150231850.jpg?t=st=1746812040~exp=1746815640~hmac=f603feba40622696f61ac3796ce89ddce77acdb2fc011d8ddb83f044426d945b&w=1380');">
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+    <div class="relative z-10 px-6 md:px-12 max-w-2xl">
+      <h1 class="text-4xl md:text-5xl font-bold text-white mb-6">
+        ¿Es hora de dejarlo ir?
+      </h1>
+      <p class="text-lg md:text-xl text-white mb-8">
+        Te ayudamos a tomar la decisión más difícil, con amor y sin culpa.
+      </p>
+      <a href="#contacto" class="bg-red-500 hover:bg-red-600 text-white font-semibold px-6 py-3 rounded-lg transition duration-300">
+        Habla con nosotros
+      </a>
+    </div>
+  </section>
+
+  <!-- Información adicional -->
+  <section class="py-16 px-6 md:px-20 bg-gray-50">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6">Un apoyo compasivo para el momento más difícil</h2>
+      <p class="text-lg text-gray-700 mb-8">
+        Cuando un perro envejece o enferma, sus cuidadores pueden sentirse perdidos. Nuestra misión es ayudarte a entender cuándo es el momento adecuado para aplicar la eutanasia, sin culpas, y siempre pensando en su bienestar.
+      </p>
+      <img src="https://img.freepik.com/premium-photo/husky-snuggles_1048944-28907756.jpg?w=740" alt="Perro abrazado" class="rounded-lg shadow-lg mx-auto w-full md:w-2/3">
+    </div>
+  </section>
+
+  <!-- Formulario de contacto -->
+  <section id="contacto" class="py-16 px-6 md:px-20 bg-white">
+    <div class="max-w-2xl mx-auto">
+      <h3 class="text-2xl font-bold mb-6 text-center">Contáctanos</h3>
+      <form action="https://formspree.io/f/mwkjakzy" method="POST" class="space-y-6">
+        <div>
+          <label for="nombre" class="block mb-2 font-medium">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required class="w-full border border-gray-300 p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-400" />
+        </div>
+        <div>
+          <label for="email" class="block mb-2 font-medium">Correo electrónico</label>
+          <input type="email" id="email" name="email" required class="w-full border border-gray-300 p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-400" />
+        </div>
+        <div>
+          <label for="mensaje" class="block mb-2 font-medium">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="5" required class="w-full border border-gray-300 p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-400"></textarea>
+        </div>
+        <button type="submit" class="w-full bg-red-500 text-white font-semibold py-3 rounded-lg hover:bg-red-600 transition duration-300">
+          Enviar mensaje
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 text-center py-6 mt-10">
+    <p class="text-sm text-gray-600">© 2025 - Proyecto AI T.H.I.N.K. | Contacto: <a href="mailto:chikamaite@hotmail.com" class="text-red-500 hover:underline">chikamaite@hotmail.com</a></p>
+  </footer>
+
+</body>
+</html>
